@@ -1,0 +1,207 @@
+#index{
+   padding: 0;
+   margin: 0;
+   overflow-y: scroll;
+   font-family: 'Roboto', sans-serif;
+   background-color:#DEE5E5;
+}
+
+#pages{
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff;
+  overflow:auto;
+  height: auto;
+}
+#main{
+  background-color: #AA1010;
+}
+
+#menu{
+  background-color: #040E3C;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#logo{
+	width: 150px;
+  padding: 0px 0px 0px 0px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 5;
+}
+
+#navmenu{
+  background-color: #AA1010;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+  position: sticky;
+  float: right;
+  padding-right: 40px;
+}
+#navmenu a:active{
+  text-decoration: underline;
+}
+
+#navmenu a:hover{
+  background-color: #7D92A3;
+}
+
+#ScheduleBtn {
+  padding: 20px 20px 20px 0px;
+  margin: 0px 0px 0px 0px;
+  float: right;
+}
+
+#schedule{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  padding-top: 150px;
+}
+
+#sameday{
+  color: #ffffff;
+  float: right;
+  font-size: 24px;
+  padding: 26px 30px 0px 0px;
+  display: block;
+}
+
+.jumbotron 	{
+			background-size:contain;
+			background-repeat:no-repeat;
+			color: #040E3C;
+      background-color: #DEE5E5;
+			padding: 150px 0px 35px 0px;
+			margin:1px;
+			border-radius: 10px;
+			}
+      .washer{background-image:url(images/washer_icon.svg);
+      }
+      .dryer{background-image:url(images/dryer_icon.svg);
+      }
+      .fridge{background-image:url(images/fridge_icon.svg);
+      }
+      .cooktop{background-image:url(images/cooktop_icon.svg);
+      }
+      .oven{background-image:url(images/oven_icon.svg);
+      }
+      .other{background-image:url(images/other_icon.svg);
+      }
+
+      .cc-selector input:active +.drinkcard-cc{opacity: .9;
+      }
+      .cc-selector input:checked +.drinkcard-cc
+      {
+          -webkit-filter: none;
+             -moz-filter: none;
+                  filter: none;
+      }
+      .drinkcard-cc{
+          cursor:pointer;
+          background-size:contain;
+          background-repeat:no-repeat;
+          display:inline-block;
+          width:10em;height:10em;
+          -webkit-transition: all 100ms ease-in;
+             -moz-transition: all 100ms ease-in;
+                  transition: all 100ms ease-in;
+          -webkit-filter: brightness(2.8) grayscale(1) opacity(.5);
+             -moz-filter: brightness(2.8) grayscale(1) opacity(.5);
+                  filter: brightness(2.8) grayscale(1) opacity(.5);
+      }
+      .drinkcard-cc:hover{
+          -webkit-filter: brightness(2.2) grayscale(.5) opacity(.9);
+             -moz-filter: brightness(2.2) grayscale(.5) opacity(.9);
+                  filter: brightness(2.2) grayscale(.5) opacity(.9);
+      }
+
+      #myCarousel{
+        width: 90%;
+        margin: 20px auto;
+      }
+      #cartext{
+        width: 75%;
+        text-align: center;
+        margin: auto;
+      }
+      .carousel-control.right, .carousel-control.left {
+      			background-image: none;
+      			color: #AA1010;
+      			}
+      .carousel-indicators li {
+      			border-color:#AA1010;
+      			}
+      .carousel-indicators li.active {
+      			background-color: #AA1010;
+      			}
+      .carousel-indicators {
+              bottom:-30px;
+              display:block;
+              position: absolute;
+            }
+
+#services{
+  padding: 0px 0px 40px 0px;
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+#services div{
+  padding: 0px 10px 0px 10px;
+  margin: 10px auto;
+}
+
+#services a{
+  background-color: #32539C;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px
+}
+
+#services h2{
+  color: #AA1010;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#foot{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  margin-bottom: 0px;
+  background-color: #7D92A3;
+  color: #040E3C;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0px 1px 0px;
+  font-size: 12pt;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#footpage{
+  display: block;
+  position:fixed;
+  width: 100%;
+  bottom: 0px;
+  background-color: #7D92A3;
+  color: #040E3C;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0px 1px 0px;
+  font-size: 12pt;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#social{
+  width: 10px;
+  float: right;
+  width: 20px;
+  margin-right: 10px;
+}
